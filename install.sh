@@ -16,7 +16,7 @@ apt-get install -y docker-ce
 service docker start
 
 # Installation de Docker Compose
-wget "https://github.com/docker/compose/releases/download/1.9.0/docker-compose-$(uname -s)-$(uname -m)" -O /usr/local/bin/docker-compose
+wget "https://github.com/docker/compose/releases/download/1.14.0/docker-compose-$(uname -s)-$(uname -m)" -O /usr/local/bin/docker-compose
 chmod +x /usr/local/bin/docker-compose
 
 # Installation de ZSH
